@@ -11,35 +11,6 @@ inline int getIndex(int x, int y, int w)
     return y * w + x;
 }
 
-inline void encodeTable(int srcNum, int x, int y, uint32_t &tableNum)
-{
-    tableNum = 0;
-
-    tableNum |= srcNum;
-
-    tableNum <<= 13;
-
-    tableNum |= (int)x;
-
-    tableNum <<= 13;
-
-    tableNum |= (int)y;
-}
-
-inline void decodeTable(uint32_t tableNum, int &x, int &y, int &srcNum)
-{
-    int mask = 8191; // 2e13 - 1
-    y = tableNum & mask;
-
-    tableNum >>= 13;
-
-    x = tableNum & mask;
-
-    tableNum >>= 13;
-
-    srcNum = tableNum;
-}
-
 namespace cinoCV
 {
     void distortion(cv::Point2d p_u, cv::Point2d &d_u, Parameters param)
