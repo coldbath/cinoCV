@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dage/cinoCV/cinoCV
+CMAKE_SOURCE_DIR = /home/dage/cinoCV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dage/cinoCV/cinoCV/build
+CMAKE_BINARY_DIR = /home/dage/cinoCV/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/out.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/out.dir/flags.make
 
 CMakeFiles/out.dir/main.cpp.o: CMakeFiles/out.dir/flags.make
 CMakeFiles/out.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dage/cinoCV/cinoCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/out.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/main.cpp.o -c /home/dage/cinoCV/cinoCV/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dage/cinoCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/out.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/main.cpp.o -c /home/dage/cinoCV/main.cpp
 
 CMakeFiles/out.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dage/cinoCV/cinoCV/main.cpp > CMakeFiles/out.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dage/cinoCV/main.cpp > CMakeFiles/out.dir/main.cpp.i
 
 CMakeFiles/out.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dage/cinoCV/cinoCV/main.cpp -o CMakeFiles/out.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dage/cinoCV/main.cpp -o CMakeFiles/out.dir/main.cpp.s
 
 CMakeFiles/out.dir/main.cpp.o.requires:
 
@@ -81,14 +81,92 @@ CMakeFiles/out.dir/main.cpp.o.provides: CMakeFiles/out.dir/main.cpp.o.requires
 CMakeFiles/out.dir/main.cpp.o.provides.build: CMakeFiles/out.dir/main.cpp.o
 
 
+CMakeFiles/out.dir/util/matrixCompute.cpp.o: CMakeFiles/out.dir/flags.make
+CMakeFiles/out.dir/util/matrixCompute.cpp.o: ../util/matrixCompute.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dage/cinoCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/out.dir/util/matrixCompute.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/util/matrixCompute.cpp.o -c /home/dage/cinoCV/util/matrixCompute.cpp
+
+CMakeFiles/out.dir/util/matrixCompute.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/util/matrixCompute.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dage/cinoCV/util/matrixCompute.cpp > CMakeFiles/out.dir/util/matrixCompute.cpp.i
+
+CMakeFiles/out.dir/util/matrixCompute.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/util/matrixCompute.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dage/cinoCV/util/matrixCompute.cpp -o CMakeFiles/out.dir/util/matrixCompute.cpp.s
+
+CMakeFiles/out.dir/util/matrixCompute.cpp.o.requires:
+
+.PHONY : CMakeFiles/out.dir/util/matrixCompute.cpp.o.requires
+
+CMakeFiles/out.dir/util/matrixCompute.cpp.o.provides: CMakeFiles/out.dir/util/matrixCompute.cpp.o.requires
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/util/matrixCompute.cpp.o.provides.build
+.PHONY : CMakeFiles/out.dir/util/matrixCompute.cpp.o.provides
+
+CMakeFiles/out.dir/util/matrixCompute.cpp.o.provides.build: CMakeFiles/out.dir/util/matrixCompute.cpp.o
+
+
+CMakeFiles/out.dir/geometry/geo2D.cpp.o: CMakeFiles/out.dir/flags.make
+CMakeFiles/out.dir/geometry/geo2D.cpp.o: ../geometry/geo2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dage/cinoCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/out.dir/geometry/geo2D.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/geometry/geo2D.cpp.o -c /home/dage/cinoCV/geometry/geo2D.cpp
+
+CMakeFiles/out.dir/geometry/geo2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/geometry/geo2D.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dage/cinoCV/geometry/geo2D.cpp > CMakeFiles/out.dir/geometry/geo2D.cpp.i
+
+CMakeFiles/out.dir/geometry/geo2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/geometry/geo2D.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dage/cinoCV/geometry/geo2D.cpp -o CMakeFiles/out.dir/geometry/geo2D.cpp.s
+
+CMakeFiles/out.dir/geometry/geo2D.cpp.o.requires:
+
+.PHONY : CMakeFiles/out.dir/geometry/geo2D.cpp.o.requires
+
+CMakeFiles/out.dir/geometry/geo2D.cpp.o.provides: CMakeFiles/out.dir/geometry/geo2D.cpp.o.requires
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/geometry/geo2D.cpp.o.provides.build
+.PHONY : CMakeFiles/out.dir/geometry/geo2D.cpp.o.provides
+
+CMakeFiles/out.dir/geometry/geo2D.cpp.o.provides.build: CMakeFiles/out.dir/geometry/geo2D.cpp.o
+
+
+CMakeFiles/out.dir/geometry/geo3D.cpp.o: CMakeFiles/out.dir/flags.make
+CMakeFiles/out.dir/geometry/geo3D.cpp.o: ../geometry/geo3D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dage/cinoCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/out.dir/geometry/geo3D.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/out.dir/geometry/geo3D.cpp.o -c /home/dage/cinoCV/geometry/geo3D.cpp
+
+CMakeFiles/out.dir/geometry/geo3D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/geometry/geo3D.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dage/cinoCV/geometry/geo3D.cpp > CMakeFiles/out.dir/geometry/geo3D.cpp.i
+
+CMakeFiles/out.dir/geometry/geo3D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/geometry/geo3D.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dage/cinoCV/geometry/geo3D.cpp -o CMakeFiles/out.dir/geometry/geo3D.cpp.s
+
+CMakeFiles/out.dir/geometry/geo3D.cpp.o.requires:
+
+.PHONY : CMakeFiles/out.dir/geometry/geo3D.cpp.o.requires
+
+CMakeFiles/out.dir/geometry/geo3D.cpp.o.provides: CMakeFiles/out.dir/geometry/geo3D.cpp.o.requires
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/geometry/geo3D.cpp.o.provides.build
+.PHONY : CMakeFiles/out.dir/geometry/geo3D.cpp.o.provides
+
+CMakeFiles/out.dir/geometry/geo3D.cpp.o.provides.build: CMakeFiles/out.dir/geometry/geo3D.cpp.o
+
+
 # Object files for target out
 out_OBJECTS = \
-"CMakeFiles/out.dir/main.cpp.o"
+"CMakeFiles/out.dir/main.cpp.o" \
+"CMakeFiles/out.dir/util/matrixCompute.cpp.o" \
+"CMakeFiles/out.dir/geometry/geo2D.cpp.o" \
+"CMakeFiles/out.dir/geometry/geo3D.cpp.o"
 
 # External object files for target out
 out_EXTERNAL_OBJECTS =
 
 out: CMakeFiles/out.dir/main.cpp.o
+out: CMakeFiles/out.dir/util/matrixCompute.cpp.o
+out: CMakeFiles/out.dir/geometry/geo2D.cpp.o
+out: CMakeFiles/out.dir/geometry/geo3D.cpp.o
 out: CMakeFiles/out.dir/build.make
 out: /usr/local/lib/libopencv_superres.so.3.4.5
 out: /usr/local/lib/libopencv_stitching.so.3.4.5
@@ -138,7 +216,7 @@ out: /usr/local/lib/libopencv_imgcodecs.so.3.4.5
 out: /usr/local/lib/libopencv_imgproc.so.3.4.5
 out: /usr/local/lib/libopencv_core.so.3.4.5
 out: CMakeFiles/out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dage/cinoCV/cinoCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dage/cinoCV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/out.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -147,6 +225,9 @@ CMakeFiles/out.dir/build: out
 .PHONY : CMakeFiles/out.dir/build
 
 CMakeFiles/out.dir/requires: CMakeFiles/out.dir/main.cpp.o.requires
+CMakeFiles/out.dir/requires: CMakeFiles/out.dir/util/matrixCompute.cpp.o.requires
+CMakeFiles/out.dir/requires: CMakeFiles/out.dir/geometry/geo2D.cpp.o.requires
+CMakeFiles/out.dir/requires: CMakeFiles/out.dir/geometry/geo3D.cpp.o.requires
 
 .PHONY : CMakeFiles/out.dir/requires
 
@@ -155,6 +236,6 @@ CMakeFiles/out.dir/clean:
 .PHONY : CMakeFiles/out.dir/clean
 
 CMakeFiles/out.dir/depend:
-	cd /home/dage/cinoCV/cinoCV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dage/cinoCV/cinoCV /home/dage/cinoCV/cinoCV /home/dage/cinoCV/cinoCV/build /home/dage/cinoCV/cinoCV/build /home/dage/cinoCV/cinoCV/build/CMakeFiles/out.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dage/cinoCV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dage/cinoCV /home/dage/cinoCV /home/dage/cinoCV/build /home/dage/cinoCV/build /home/dage/cinoCV/build/CMakeFiles/out.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/out.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dage/cinoCV/cinoCV
+CMAKE_SOURCE_DIR = /home/dage/cinoCV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dage/cinoCV/cinoCV/build
+CMAKE_BINARY_DIR = /home/dage/cinoCV/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dage/cinoCV/cinoCV/build/CMakeFiles /home/dage/cinoCV/cinoCV/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dage/cinoCV/build/CMakeFiles /home/dage/cinoCV/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dage/cinoCV/cinoCV/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dage/cinoCV/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ out/fast:
 	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/build
 .PHONY : out/fast
 
+geometry/geo2D.o: geometry/geo2D.cpp.o
+
+.PHONY : geometry/geo2D.o
+
+# target to build an object file
+geometry/geo2D.cpp.o:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/geometry/geo2D.cpp.o
+.PHONY : geometry/geo2D.cpp.o
+
+geometry/geo2D.i: geometry/geo2D.cpp.i
+
+.PHONY : geometry/geo2D.i
+
+# target to preprocess a source file
+geometry/geo2D.cpp.i:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/geometry/geo2D.cpp.i
+.PHONY : geometry/geo2D.cpp.i
+
+geometry/geo2D.s: geometry/geo2D.cpp.s
+
+.PHONY : geometry/geo2D.s
+
+# target to generate assembly for a file
+geometry/geo2D.cpp.s:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/geometry/geo2D.cpp.s
+.PHONY : geometry/geo2D.cpp.s
+
+geometry/geo3D.o: geometry/geo3D.cpp.o
+
+.PHONY : geometry/geo3D.o
+
+# target to build an object file
+geometry/geo3D.cpp.o:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/geometry/geo3D.cpp.o
+.PHONY : geometry/geo3D.cpp.o
+
+geometry/geo3D.i: geometry/geo3D.cpp.i
+
+.PHONY : geometry/geo3D.i
+
+# target to preprocess a source file
+geometry/geo3D.cpp.i:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/geometry/geo3D.cpp.i
+.PHONY : geometry/geo3D.cpp.i
+
+geometry/geo3D.s: geometry/geo3D.cpp.s
+
+.PHONY : geometry/geo3D.s
+
+# target to generate assembly for a file
+geometry/geo3D.cpp.s:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/geometry/geo3D.cpp.s
+.PHONY : geometry/geo3D.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+util/matrixCompute.o: util/matrixCompute.cpp.o
+
+.PHONY : util/matrixCompute.o
+
+# target to build an object file
+util/matrixCompute.cpp.o:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/util/matrixCompute.cpp.o
+.PHONY : util/matrixCompute.cpp.o
+
+util/matrixCompute.i: util/matrixCompute.cpp.i
+
+.PHONY : util/matrixCompute.i
+
+# target to preprocess a source file
+util/matrixCompute.cpp.i:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/util/matrixCompute.cpp.i
+.PHONY : util/matrixCompute.cpp.i
+
+util/matrixCompute.s: util/matrixCompute.cpp.s
+
+.PHONY : util/matrixCompute.s
+
+# target to generate assembly for a file
+util/matrixCompute.cpp.s:
+	$(MAKE) -f CMakeFiles/out.dir/build.make CMakeFiles/out.dir/util/matrixCompute.cpp.s
+.PHONY : util/matrixCompute.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... out"
+	@echo "... geometry/geo2D.o"
+	@echo "... geometry/geo2D.i"
+	@echo "... geometry/geo2D.s"
+	@echo "... geometry/geo3D.o"
+	@echo "... geometry/geo3D.i"
+	@echo "... geometry/geo3D.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... util/matrixCompute.o"
+	@echo "... util/matrixCompute.i"
+	@echo "... util/matrixCompute.s"
 .PHONY : help
 
 

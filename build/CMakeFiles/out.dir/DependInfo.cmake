@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dage/cinoCV/cinoCV/main.cpp" "/home/dage/cinoCV/cinoCV/build/CMakeFiles/out.dir/main.cpp.o"
+  "/home/dage/cinoCV/geometry/geo2D.cpp" "/home/dage/cinoCV/build/CMakeFiles/out.dir/geometry/geo2D.cpp.o"
+  "/home/dage/cinoCV/geometry/geo3D.cpp" "/home/dage/cinoCV/build/CMakeFiles/out.dir/geometry/geo3D.cpp.o"
+  "/home/dage/cinoCV/main.cpp" "/home/dage/cinoCV/build/CMakeFiles/out.dir/main.cpp.o"
+  "/home/dage/cinoCV/util/matrixCompute.cpp" "/home/dage/cinoCV/build/CMakeFiles/out.dir/util/matrixCompute.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

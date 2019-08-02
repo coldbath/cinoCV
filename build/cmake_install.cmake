@@ -1,4 +1,4 @@
-# Install script for directory: /home/dage/cinoCV/cinoCV
+# Install script for directory: /home/dage/cinoCV
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dage/cinoCV/cinoCV/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dage/cinoCV/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
